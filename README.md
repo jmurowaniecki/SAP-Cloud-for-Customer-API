@@ -14,3 +14,11 @@ Para executar o serviço configure o Apache, NGINX para que realizem a leitura d
 > ```
 > php -S localhost:8080 -t ./src
 > ```
+
+## Utilizando Heroku
+
+Para executar esta aplicação via Heroku primeiramente instale o Heroku Client, a seguir, na raiz deste repositório, crie uma nova aplicação com o comando `heroku create` e, logo a seguir efetue push do repositório para seu dashboard com o comando `git push heroku main`
+
+Em poucos instantes o projeto estará sendo executado no domínio configurado em seu dashboard.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
