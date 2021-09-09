@@ -12,5 +12,8 @@
     "require": {
         "php": ">=8.0.0",
         "php-developer/lambda-nano": "^0.3.0"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
     }
 }
