@@ -6,6 +6,8 @@ Este repositório foi criado unicamente com o propósito de facilitar a visualiz
 
 ## Primeiros passos
 
+Na raiz do projeto execute o comando `composer install` para que as dependências do projeto sejam instaladas e devidamente configuradas.
+
 Para executar o serviço configure o Apache, NGINX para que realizem a leitura do diretório `./src`. Não são necessários módulos adicionais e/ou demais configurações.
 
 > Também é possível executar a aplicação utilizando o próprio servidor do PHP conforme exemplo:
