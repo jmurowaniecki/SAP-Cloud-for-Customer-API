@@ -1,1 +1,1 @@
-web: php -S 0: -t public/
+web: vendor/bin/heroku-php-apache2 public/
