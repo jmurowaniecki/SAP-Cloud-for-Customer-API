@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9c814b468d03f344e2bafc96aeefeb94",
+    "packages": [
+        {
+            "name": "php-developer/lambda-nano",
+            "version": "v0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jmurowaniecki/lambda-nano.git",
+                "reference": "aa28cb31e36d7d3d6934a6566fc0a0f377b01ee1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jmurowaniecki/lambda-nano/zipball/aa28cb31e36d7d3d6934a6566fc0a0f377b01ee1",
+                "reference": "aa28cb31e36d7d3d6934a6566fc0a0f377b01ee1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "CORE\\": "src/"
+                },
+                "psr-4": {
+                    "CORE\\": "src/"
+                },
+                "classmap": [
+                    "src/bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC-BY-4.0"
+            ],
+            "authors": [
+                {
+                    "name": "John Murowaniecki",
+                    "email": "john@compilou.com.br"
+                }
+            ],
+            "description": "Simple & lightweight PHP 8 framework.",
+            "support": {
+                "issues": "https://github.com/jmurowaniecki/lambda-nano/issues",
+                "source": "https://github.com/jmurowaniecki/lambda-nano/tree/v0.3"
+            },
+            "time": "2021-09-09T19:10:57+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.0.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "jmurowaniecki/sap-cloud-for-customer-api",
+    "description": "API de teste de integração com a plataforma.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Murowaniecki",
+            "email": "john@compilou.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0",
+        "php-developer/lambda-nano": "^0.3.0"
+    }
+}
