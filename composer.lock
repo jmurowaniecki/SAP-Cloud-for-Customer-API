@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f637e9b90a5ff63b9b9d98c7d70a0588",
+    "content-hash": "8892af67abb9d158cfffacc76746a40d",
     "packages": [
         {
             "name": "php-developer/lambda-nano",
-            "version": "v0.3",
+            "version": "v0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jmurowaniecki/lambda-nano.git",
-                "reference": "aa28cb31e36d7d3d6934a6566fc0a0f377b01ee1"
+                "reference": "26abf072c78b43ead19f34d39163b06b42d9bff5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jmurowaniecki/lambda-nano/zipball/aa28cb31e36d7d3d6934a6566fc0a0f377b01ee1",
-                "reference": "aa28cb31e36d7d3d6934a6566fc0a0f377b01ee1",
+                "url": "https://api.github.com/repos/jmurowaniecki/lambda-nano/zipball/26abf072c78b43ead19f34d39163b06b42d9bff5",
+                "reference": "26abf072c78b43ead19f34d39163b06b42d9bff5",
                 "shasum": ""
             },
             "require": {
@@ -48,9 +48,9 @@
             "description": "Simple & lightweight PHP 8 framework.",
             "support": {
                 "issues": "https://github.com/jmurowaniecki/lambda-nano/issues",
-                "source": "https://github.com/jmurowaniecki/lambda-nano/tree/v0.3"
+                "source": "https://github.com/jmurowaniecki/lambda-nano/tree/v0.4"
             },
-            "time": "2021-09-09T19:10:57+00:00"
+            "time": "2021-09-09T23:15:29+00:00"
         }
     ],
     "packages-dev": [
