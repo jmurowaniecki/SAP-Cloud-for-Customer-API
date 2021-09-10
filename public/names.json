@@ -1,0 +1,10 @@
+{
+    "first_name": {
+        "male": ["Adão", "Adriano", "Alberto", "Alexandre", "André", "Andrew", "Arthur", "Bernardo", "Cristian", "Cristiano", "Davi", "Dionísio", "Eduardo", "Felipe", "Gabriel", "Gael", "Guilherme", "Heitor", "João", "Kennedy", "Lorenzo", "Lucas", "Luís", "Luiz", "Márcio", "Mário", "Miguel", "Nicholas", "Nicolas", "Nícolas", "Paulo", "Pedro", "Rogério", "Samuel", "Silvio", "Theo", "Vagner", "Vinícius", "Wagner"],
+        "female": ["Adriana", "Alexandra", "Alice", "Amélia", "Ana", "Antonella", "Beatriz", "Carol", "Carolina", "Cecília", "Clara", "Clarissa", "Cristina", "Cristine", "Eduarda", "Elisa", "Gabriela", "Helena", "Heloísa", "Jacqueline", "Jaqueline", "Julia", "Júlia", "Juliana", "Lara", "Laura", "Liz", "Luana", "Márcia", "Mari", "Maria", "Mariana", "Marina", "Marry", "Paula", "Regina", "Silvia", "Sophia", "Stefanie", "Steffanie", "Stephanie", "Valentina"]
+    },
+    "last_name": ["Almeida", "Alves", "Andrade", "Barbosa", "Cardoso", "Carvalho", "Costa", "Dias", "Fernandes", "Ferreira", "Freitas", "Gomes", "Gonçalves", "Lima", "Lopes", "Machado", "Marques", "Martins", "Mendes", "Moreira", "Nascimento", "Nunes", "Oliveira", "Pereira", "Ramos", "Ribeiro", "Rocha", "Rodrigues", "Santana", "Santos", "Silva", "Soares", "Souza", "Teixeira", "Vieira"],
+    "from": ["ã", "á", "à", "â", "ç", "é", "ê", "í", "ú"],
+    "to": ["a", "a", "a", "a", "c", "e", "e", "i", "u"],
+    "mail": ["com", "net", "org", "cc", "it", "br", "gov"]
+}

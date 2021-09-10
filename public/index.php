@@ -34,4 +34,33 @@ require_once '../vendor/autoload.php';
      */
     ->route('/sum', function (...$a) {
         return json_encode(["value" => array_sum($a)]);
+    })
+
+    /**
+     * Gera pessoa fictícia. Obs.: CPF vão gera utilizando algoritmo válido.
+     * 
+     * Ex.: /person
+     */
+    ->route('/person', function (...$a) {
+        if (!isset($_SERVER['HTTP_AUTHORIZATION'])) {
+            \CORE\λ::print('Not authorizated!', 1, ["", "401 unauthorized"]);
+        }
+        $gen = function ($L = 3, $N = ''): String { for ($n = 0; $n < $L; $n++, $N .= rand(0, 9)); return str_pad($N, $L, '0'); };
+        $doc = $gen() . "." . $gen() . "." . $gen() . "-" . $gen(2);
+        $sex = ['male', 'female'][rand(0, 10) % 2];
+
+        $dict = json_decode(file_get_contents('names.json'));
+        $list = $dict->first_name->{$sex};
+        $last = $dict->last_name[rand(0, sizeof($dict->last_name)-1)];
+        $name = $list[rand(0, sizeof($list)-1)];
+        $nick = strtolower(str_replace($dict->from, $dict->to, "${name}.${last}"));
+        $mail = str_replace(['..', '@.'], ['.', '@'], "${nick}@".str_shuffle($nick).".".$dict->mail[rand(0, sizeof($dict->mail)-1)]);
+
+        return json_encode([
+            "sex" => $sex,
+            "doc" => $doc,
+            "name" => "${name} ${last}",
+            "nick" => $nick,
+            "mail" => $mail
+        ]);
     });
